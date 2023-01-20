@@ -1,0 +1,39 @@
+.banner-img-1{
+    background:linear-gradient(0deg, rgba(12, 8, 10, 0.438), rgba(29, 7, 20, 0.604)), url("../images/banner-2\ .jpg");
+ background-repeat:no-repeat;
+   background-size: cover;
+    height: 100vh;
+}
+.banner-img-2{
+    background:linear-gradient(0deg, rgba(12, 8, 10, 0.3), rgba(29, 7, 20, 0.3)), url("../images/banner-4.jpg");
+   background-repeat:no-repeat;
+   background-size: cover;
+    height: 100vh;
+}
+.banner-img-3{
+    background:linear-gradient(0deg, rgba(12, 8, 10, 0.3), rgba(29, 7, 20, 0.3)), url("../images/banner-3.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.content-container{
+    color:white;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+.wedding-sec{
+
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+.card-highlights{
+    padding:20px 40px;
+    transform: scale(1.1);
+    background-color: dodgerblue !important;
+    color:white;
+    z-index:999 !important;
+}
